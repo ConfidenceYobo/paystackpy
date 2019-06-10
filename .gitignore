@@ -1,0 +1,8 @@
+*.pyc
+/dist/
+/build/
+/*.egg-info
+/.idea/
+.idea/
+paystackpy.egg-info/
+/paystackpy.egg-info/
