@@ -99,4 +99,6 @@ class Transaction(APIConfig):
         url = self._url("/transaction/verify/{}".format(reference))
         return self._handle_request('GET', url)
 
-
+    def banks(self):
+        url = self._url("/bank/?perPage=100")
+        return self._handle_request('GET', url)
