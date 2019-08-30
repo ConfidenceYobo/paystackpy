@@ -8,7 +8,7 @@ class Transfer(APIConfig):
                                   currency=None, description=None, authorization_code=None):
         url = self._url("/transferrecipient")
         payload = {
-            "receipt_type": receipt_type,
+            "type": receipt_type,
             "name": name,
             "metadata": metadata,
             "account_number": account_number,
