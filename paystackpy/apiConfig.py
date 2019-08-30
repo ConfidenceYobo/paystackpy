@@ -68,4 +68,4 @@ class APIConfig:
             return self._parse_json(response)
         else:
             body = response.json()
-            return response.status_code, body.get('status'), body.get('message'), body.get('errors')}
+            return response.status_code, body.get('status'), body.get('message'), body.get('errors')
