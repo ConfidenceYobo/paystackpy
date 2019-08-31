@@ -24,7 +24,7 @@ def validate_interval(interval):
 
 
 def reference_gen():
-    possibilities = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+    possibilities = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
     token = ""
     token_length = 12
 
