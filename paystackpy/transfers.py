@@ -48,7 +48,7 @@ class Transfer(APIConfig):
             "currency": currency,
             "reason": reason,
             "recipient": recipient,
-            "reference": utils.reference_gen()
+            "reference": None
         }
 
         return self._handle_request('POST', url, payload)
