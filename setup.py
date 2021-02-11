@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/ConfidenceYobo/paystackpy",
     packages=setuptools.find_packages(),
-    download_url='https://github.com/ConfidenceYobo/paystackpy/archive/0.06.tar.gz',
+    download_url='https://github.com/ConfidenceYobo/paystackpy/archive/v0.0.6.tar.gz',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
