@@ -1,6 +1,4 @@
 from paystackpy.errors import InvalidDataError
-import random
-# random.seed(123)
 
 
 def validate_amount(amount):
@@ -16,7 +14,6 @@ def validate_amount(amount):
 
 
 def validate_interval(interval):
-
     interval = interval if interval.lower() in ['hourly', 'daily', 'weekly', 'monthly', 'annually'] else None
     if not interval:
         raise InvalidDataError("Please provide a valid plan interval")
